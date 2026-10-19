@@ -1,0 +1,57 @@
+design_solution:
+  description: >
+    Design a comprehensive technical solution for {company_name}.
+
+    Use the following company research:
+
+    {dependency_outputs}
+
+    Use the following technology analysis:
+
+    {dependency_outputs}
+
+    Based on these inputs:
+
+    1. Identify the key business and technical challenges.
+
+    2. Identify the most important solution requirements.
+
+    3. Propose a suitable target architecture.
+
+    4. Explain the major components of the architecture.
+
+    5. Explain how the components communicate with each other.
+
+    6. Recommend suitable technologies where appropriate.
+
+    7. Explain integration with the company's existing
+       technology environment.
+
+    8. Address security, scalability, reliability,
+       observability, and data governance.
+
+    9. Identify assumptions and potential risks.
+
+    10. Explain why the proposed architecture is appropriate
+        for this company.
+
+    The architecture should be practical for an enterprise
+    environment and should avoid unnecessary technologies.
+
+  expected_output: >
+    A structured solution architecture containing:
+
+    - Executive summary
+    - Business and technical challenges
+    - Solution requirements
+    - Proposed architecture
+    - Major architecture components
+    - Data and integration flow
+    - Technology recommendations
+    - Security considerations
+    - Scalability and reliability considerations
+    - Observability considerations
+    - Risks and assumptions
+    - Architecture rationale
+
+  agent: solution_architect

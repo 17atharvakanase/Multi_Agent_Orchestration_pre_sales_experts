@@ -1,0 +1,29 @@
+research_company:
+  description: >
+    Research the following company:
+
+    Company: {company_name}
+    Website: {website}
+
+    Identify:
+
+    1. What the company does
+    2. Main products/services
+    3. Target customers
+    4. Technology/AI signals
+    5. Potential business challenges
+    6. Potential AI opportunities
+
+    Clearly separate facts from assumptions.
+
+  expected_output: >
+    A structured company research report containing:
+
+    - Company overview
+    - Products/services
+    - Technology signals
+    - Business challenges
+    - AI opportunities
+    - Confidence level
+
+

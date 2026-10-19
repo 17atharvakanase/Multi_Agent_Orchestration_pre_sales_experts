@@ -1,0 +1,42 @@
+analyze_technology:
+  description: >
+    Analyze the technology profile of:
+
+    Company: {company_name}
+    Domain: {website}
+
+    The orchestration layer has determined the following
+    execution context:
+
+    {orchestrator_decision}
+
+    Use this context to understand the purpose and priority
+    of this analysis. Do not blindly accept claims from the
+    orchestration context as facts.
+
+    Identify:
+
+    1. Technology maturity
+    2. Cloud/platform signals
+    3. AI/ML signals
+    4. Data engineering signals
+    5. Integration opportunities
+    6. Potential technical pain points
+    7. Potential AI/GenAI opportunities
+    8. Recommended technical areas for further discovery
+
+    Clearly distinguish facts from assumptions.
+
+  expected_output: >
+    A structured technology analysis containing:
+
+    - Technology maturity
+    - Cloud signals
+    - AI signals
+    - Data signals
+    - Integration opportunities
+    - Technical challenges
+    - AI opportunities
+    - Recommended discovery areas
+    - Confidence level
+

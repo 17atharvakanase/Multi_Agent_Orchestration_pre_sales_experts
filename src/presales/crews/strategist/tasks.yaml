@@ -1,0 +1,38 @@
+synthesize_analysis:
+  description: >
+    You are given two independent analyses.
+
+    COMPANY RESEARCH:
+    {dependency_outputs}
+
+    TECHNOLOGY ANALYSIS:
+    {dependency_outputs}
+
+    ORCHESTRATOR DECISION:
+    {orchestrator_decision}
+
+    Synthesize these into a presales recommendation.
+
+    Determine:
+
+    1. Most important business opportunity
+    2. Most important technical opportunity
+    3. Recommended AI/GenAI solution areas
+    4. Potential implementation challenges
+    5. Important questions for customer discovery
+    6. Recommended next workflow stage
+    7. Overall opportunity confidence
+
+    Do not invent facts that are not supported by
+    the provided analyses.
+
+  expected_output: >
+    A structured presales strategy containing:
+
+    - Business opportunity
+    - Technical opportunity
+    - Recommended solution areas
+    - Risks
+    - Discovery questions
+    - Recommended next step
+    - Confidence
